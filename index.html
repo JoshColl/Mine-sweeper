@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Minesweeper JC</title>
+</head>
+<body onload="initGame()">
+    <h1>Minesweeper</h1>
+    <p class="loose">You loose GAME OVER!!</p>
+    <p class="win">Congratulations YOU WON!</p>
+    <div class="display">
+        <a class="timer"></a>
+        <button onclick="restartGame()" class="restart">😀</button>
+    </div>
+    
+    <div class="levels">
+        <button onclick="level(4,2)">Easy</button>
+        <button onclick="level(8,12)">Normal</button>
+        <button onclick="level(12,30)">Hard</button>
+    </div>
+
+    <table border="3" cellpadding="5">
+        <tbody class="board">
+        </tbody>
+    </table>
+  
+    <script src="game.js"></script>
+</body>
+</html>

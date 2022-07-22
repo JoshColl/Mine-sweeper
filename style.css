@@ -1,0 +1,56 @@
+body {
+    text-align: center;
+    margin: auto;
+}
+
+.display {
+    margin: auto;
+}
+
+.levels {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.board td {
+    width: 30px;
+    height: 30px;
+
+}
+
+.board {
+
+    background: linear-gradient(to top, rgb(123, 146, 151), rgb(76, 104, 122), rgb(76, 148, 135));
+
+}
+
+.board td:hover {
+    background-color: rgb(74, 77, 112);
+}
+
+
+.loose {
+    margin: 120px 20% auto;
+    padding: 5%;
+    max-width: 200px;
+    text-align: center;
+    font-size: 30px;
+    background-color: rgb(108, 52, 128);
+    position: absolute;
+    border-radius: 20%;
+}
+
+.win {
+    margin: 120px 20% auto;
+    padding: 5%;
+    max-width: 200px;
+    text-align: center;
+    font-size: 30px;
+    background-color: rgb(57, 102, 137);
+    position: absolute;
+    border-radius: 20%;
+}
+
+.shown {
+    background-color: rgb(69, 105, 90);
+}
